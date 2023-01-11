@@ -55,3 +55,91 @@ img {
 .menu ul li a:hover {
   color: tomato;
 }
+
+/* Banner Area CSS */
+
+.banner-area img {
+  width: 100%;
+  border: 3px solid #ddd;
+  padding: 3px;
+  border-radius: 7px;
+}
+
+/* About Area Style */
+.about {
+  display: flex;
+  text-align: center;
+}
+
+.about-area {
+  padding: 100px 0;
+}
+.about-title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.about-title h4 {
+  text-transform: capitalize;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.about-single i {
+  font-size: 20px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.about-single h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Service Section Style  */
+
+.services-area {
+  background-color: #f2f2f2;
+  padding: 80px 0;
+}
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.single-services {
+  background-color: #fff;
+  padding: 20px;
+  flex-basis: 32%;
+  border-radius: 5px;
+}
+.single-services h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 26px;
+  margin-bottom: 17px;
+}
+.single-services p {
+  line-height: 26px;
+  margin: 20px 0;
+}
+.single-services a {
+  background-color: tomato;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.single-services a:hover {
+  background-color: teal;
+}
